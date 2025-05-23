@@ -1,6 +1,9 @@
 #include <iostream>
+#include "App.h"
 
-int main()
-{
-    std::cout << "Hello World!\n";
+int main() {
+    App app;
+    app.Setup();
+    app.MainLoop();
+    return 0;
 }
