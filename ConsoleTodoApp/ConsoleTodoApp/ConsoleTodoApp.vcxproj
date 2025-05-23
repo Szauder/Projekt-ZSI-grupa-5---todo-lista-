@@ -127,7 +127,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AddCommand.cpp" />
+    <ClCompile Include="App.cpp" />
+    <ClCompile Include="CommandsRegister.cpp" />
+    <ClCompile Include="HelpCommand.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="UiDrawer.cpp" />
+    <ClCompile Include="UserInput.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AddCommand.h" />
+    <ClInclude Include="App.h" />
+    <ClInclude Include="CommandBase.h" />
+    <ClInclude Include="CommandsRegister.h" />
+    <ClInclude Include="HelpCommand.h" />
+    <ClInclude Include="Task.h" />
+    <ClInclude Include="UiDrawer.h" />
+    <ClInclude Include="UserInput.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
