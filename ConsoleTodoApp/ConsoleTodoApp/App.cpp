@@ -26,7 +26,7 @@ void App::MainLoop() {
         }
         else if (cmdName.length() > 0) {
             UiDrawer::DrawLine("Nieznana komenda. Uzyj 'help' aby zobaczyc dostepne komendy.");
-            system("pause");
+            system("pause >nul");
         }
     }
 }

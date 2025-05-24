@@ -11,6 +11,7 @@ class CommandsRegister {
 public:
     static void AddCommand(CommandBase* cmd, const std::string& execName);
     static CommandBase* GetCommandByExecName(const std::string& name);
+    static std::vector<std::string> GetAvaibleCommandsNames();
 };
 
 #endif
