@@ -130,9 +130,11 @@
     <ClCompile Include="AddCommand.cpp" />
     <ClCompile Include="App.cpp" />
     <ClCompile Include="CommandsRegister.cpp" />
+    <ClCompile Include="CompletedCommand.cpp" />
     <ClCompile Include="HelpCommand.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="UiDrawer.cpp" />
+    <ClCompile Include="UncompletedCommand.cpp" />
     <ClCompile Include="UserInput.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -140,9 +142,11 @@
     <ClInclude Include="App.h" />
     <ClInclude Include="CommandBase.h" />
     <ClInclude Include="CommandsRegister.h" />
+    <ClInclude Include="CompletedCommand.h" />
     <ClInclude Include="HelpCommand.h" />
     <ClInclude Include="Task.h" />
     <ClInclude Include="UiDrawer.h" />
+    <ClInclude Include="UncompletedCommand.h" />
     <ClInclude Include="UserInput.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
